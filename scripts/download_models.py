@@ -13,7 +13,7 @@ login(token=HF_TOKEN)
 
 # ✅ Define models to download
 models = [
-    {"repo_id": "NousResearch/Nous-Hermes-2-Mistral-7B", "filename": "pytorch_model.bin"},
+    {"repo_id": "mistralai/Mistral-7B-Instruct-v0.1", "filename": "pytorch_model.bin"},  # Open version
 ]
 
 # ✅ Create models directory if it doesn't exist
